@@ -1,0 +1,2 @@
+cat headlines.txt   # Linux/macOS
+type headlines.txt  # Windows
