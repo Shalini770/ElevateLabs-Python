@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f8ff;
+}
+
+header {
+    background: #514d4d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+nav a.active, nav a:hover {
+    text-decoration: underline;
+}
+
+.about, .skills, .form-container, .success {
+    margin: 40px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.profile-img {
+    /* height: 200px;
+    width: 200px; */
+    /* border-radius: 50%; */
+    /* margin-bottom: 20px; */
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    padding: 8px;
+    background: #e0ecff;
+    margin: 5px auto;
+    width: 60%;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 8px 0;
+    padding: 10px;
+    border: 2px solid #aac6ff;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    margin-top: 10px;
+    background: #0047b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #012a6c;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #514d4d;
+    color: white;
+    margin-top: 50px;
+}
